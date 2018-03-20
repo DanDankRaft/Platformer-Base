@@ -41,7 +41,6 @@ public class movement : MonoBehaviour {
 			if(hit.collider != null)
 			{
 				isGrounded = true;
-				Debug.Log(hit.collider.name);
 			}
 		}
 	}
